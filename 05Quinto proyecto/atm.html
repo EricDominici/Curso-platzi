@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cajero automático</title>
+  </head>
+  <body>
+    <h1>Bienvenido a tu Bank E! :D</h1>
+    <p>Aquí podrás retirar tu dinero de <strong>tu cuenta bancaria :)</strong></p>
+    <p>
+      <img src="cajerobanke.jpg" />
+    </p>
+    <h2>Por favor, ingresa la cantidad de dinero que quieres retirar en pesos colombianos:</h2>
+    <p>
+      <input type="number" id="dinero" />
+      <input type="button" value="Extraer" id="extraer" />
+      <p>
+        <br />
+        <input type="button" value="Consultar Saldo" id="cantidad" />
+        <input type="button" value="Refrescar Cajero" onclick="javascript:window.location.reload();"/>
+      </p>
+    </p>
+    <p id="resultado"></p>
+    <script src="cajero.js"></script>
+  </body>
+</html>
